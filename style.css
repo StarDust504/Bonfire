@@ -1,0 +1,454 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family: "roboto";
+    src: url(Roboto-Regular.ttf);
+}
+body{
+    font-family: "roboto";
+    background-color: black;
+}
+.hat{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+
+.logoAndNameTop{
+    margin-top: 16px;
+    margin-left: 15%;
+}
+.hatMenu{
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 17%;
+    
+}
+.hatMenu > div{
+    display: grid;
+    grid-template-columns:max-content max-content;
+    column-gap: 6px;
+    align-items:flex-end;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color:white;
+}
+.hatMenu > button{
+    width: 74px;
+    height: 34px;
+    box-shadow: 0px 0px 0px #BDCAD8;
+    border-radius: 5px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 1.6px;
+}
+.takeZone{
+    margin-top: 125px;
+    margin-left: 8%;
+}
+.cardZone{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 91px;
+    padding-left: 9%;
+    padding-right: 7%;
+    background: black;
+}
+.cardZone > img{
+    border-radius: 20px;
+}
+.cardZone >img:nth-child(2){
+    margin-top: 32px;
+}
+.cardZone >img:nth-child(3){
+    margin-top: 72px;
+}
+.cardZone >img:nth-child(4){
+    margin-top: 32px;
+}
+.intro{
+    margin-top: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro > button{
+    margin-top: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #3D4853;
+    width: 182px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+}
+.card1{
+    margin-left: 15%;
+    margin-top: 120px;
+    width:54%;
+}
+.card2{
+    margin-left: 30%;
+    margin-top: 96px;
+    width: 54%;
+}
+.topCreators{
+    margin-top: 120px;
+    height: 328px;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #111111;
+
+}
+.nameOfCreators{
+    display: flex;
+    margin-top: 25px;
+    width: 75%;
+    justify-content: space-between;
+}
+.split{
+    height: 893px;
+    background: radial-gradient(100% 100% at 18.54% 0%, rgba(141, 196, 243, 0.62) 20.83%, rgba(234, 151, 78, 0.65) 46.35%, #E4C3D4 86.98%);
+    background-color: white;
+}
+.awesome{
+    width:56%;
+    position: absolute;
+    margin-top: 152px;
+    margin-left: 6%;
+}
+.splitText{
+    width:42%;
+    position: relative;
+    top:260px;
+    left:53%;
+}
+h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #111111;
+}
+.custom{
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 86px;
+    color: #111111;
+}
+.members{
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #111111;
+}
+.unlock{
+    padding-left: 3%;
+    padding-right: 3%;
+    display: grid;
+    grid-template-columns: 445fr 870fr 445fr;
+    padding-top: 231px;
+    padding-bottom: 232px;
+    height: 431px;
+    background:black;
+}
+.dress{
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h4{
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 86px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.bonX{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #BABABA;
+
+}
+.tapock{
+    position: relative;
+}
+.outTapock{
+    position: absolute;
+    left:9px;
+    top:6px;
+}
+.warning{
+    margin-top: 31px;
+    width:95% ;
+    text-align: center;
+}
+.exp{
+    height:1410px;
+    background:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    padding-left: 10%;
+}
+.left > img{
+    width:95%;
+    margin-top: 71px;
+    position: relative;
+    left: -16px;
+}
+h5{
+    margin-top: 175px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #111111;
+}
+.custSell{
+    margin-top: 20px;
+    width:max-content;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 86px;
+    color: #111111;
+}
+.right{
+    padding-right: 6%;
+    padding-left: 8%;
+}
+.right > img {
+    width:100%;
+    position: relative;
+    left:-20px;
+    margin-top: 96px;
+}
+.rightText{
+    margin-top: 456px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #111111;
+}
+.smc{
+    padding-top: 182px;
+    height: 360px;
+    background:white;
+    padding-left: 6%;
+    padding-right: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3%;
+}
+.smcH{
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    color: #111111;
+}
+.smcText{
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+}
+.join{
+    padding-left: 6%;
+    padding-top: 120px;
+    background: #3D4853;
+    height: 596px;
+}
+.joinText{
+    position: relative;
+    z-index: 10;
+    float:left;
+    margin-top: 96px;
+    width:55%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+.niceImgWithBorder{
+    left:47%;
+    position: absolute;
+}
+.niceImgWithBorder > img:nth-child(1){
+    position: relative;
+    width: 90%;
+}
+.niceImgWithBorder > img:nth-child(2){
+    position: absolute;
+    top:330px;
+    left:295px;
+}
+footer{
+    padding-top: 56px;
+    height: 453px;
+    background: #3D4853;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.fstFooter{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2.3fr 1.5fr 0.1fr;
+}
+.fstMenu > div{
+    width: max-content;
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #BDCAD8;
+}
+.hSecondMenu{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #BDCAD8;
+}
+.secondMenuElemetn{
+    text-decoration: none;
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.secondMenuElemetn:nth-child(2){
+    margin-top: 34px;
+}
+.secondMenuElemetn > a{
+    text-decoration: none;
+    color:white;
+}
+.integrations{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width:223px;
+    background: #445260;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.secondMenuPict{
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+}
+.scndFooter{
+    display: grid;
+    grid-template-columns: 274fr 687fr 282fr;
+}
+.copyright{
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footerButton{
+    background: none;
+    margin-top: 33px;
+    width: 156px;
+    border: 2px solid #BDCAD8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+    align-items: center;
+}
+.location > img {
+    height: 45px;
+}
+.location > div {
+    margin-top: 6px;
+}
